@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="max-width  center">
+            <h1 id="counter">00:00:00</h1>
+            <div class="botoes center">
+                <button class="bg-green center botao" onclick="start()">Iniciar</button>
+                <button class="bg-yellow center botao" onclick="pause()">Pausar</button>
+                <button class="bg-red center botao" onclick="stop()">Parar</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/cron.js"></script>
+</body>
+
+</html>
